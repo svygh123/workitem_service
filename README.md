@@ -11,7 +11,7 @@
      步骤1:  
      url: http://localhost:8080/workitem_service/rest/auth  
      方法: post  
-     Body参数: username=ndh , password=ndn  
+     Body参数: username=ndh , password=ndh  
      返回值: {"username":"ndh","token":"-196186307c3c5accec7ed0fc3e8d0a2ef98fbd242"}  
 ```JavaScript
 // jQuery代码:
@@ -57,4 +57,5 @@ $.ajax(settings).done(function (response) {
 });
 ```
 ## 4. 注意
-     ApplicationResourceConfig里面配置了@ApplicationPath("/rest/*"),因此在Auth.java和HelloWorldService.java的Path不用加rest了
+     * ApplicationResourceConfig里面配置了@ApplicationPath("/rest/*"),因此在Auth.java和HelloWorldService.java的Path不用加rest了  
+     * 这里没有用到数据库,是写死了用户名ndh和密码ndh
