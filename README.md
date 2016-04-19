@@ -8,7 +8,7 @@
 * dev env : MyEclipse 10.5 + Maven 3.0.4
 
 ## 3 Postman运行
->**步骤1:** http://localhost:8080/workitem_service/rest/auth  
+**步骤1:** http://localhost:8080/workitem_service/rest/auth  
 **方法:** post  
 **Body参数:** username=ndh , password=ndn  
 **返回值:** {"username":"ndh","token":"-196186307c3c5accec7ed0fc3e8d0a2ef98fbd242"}  
@@ -33,7 +33,7 @@ $.ajax(settings).done(function (response) {
   console.log(response);
 });
 ```  
->**步骤2:** http://localhost:8080/workitem_service/rest/hello/ndh  
+**步骤2:** http://localhost:8080/workitem_service/rest/hello/ndh  
 **方法:** get  
 **Headers参数:** Authorization=Basic -196186307c3c5accec7ed0fc3e8d0a2ef98fbd242  
 **返回值(JSON):** Bad string , 选择Text后返回值(Text): {'Jersey say':'ndh'}  
