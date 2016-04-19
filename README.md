@@ -4,8 +4,8 @@
      实现WebApp与服务器接口交互获取令牌及校验
 
 ## 2. 环境及框架
-     dev framework : Spring 3.1.1RELEASE +  jersey 2.2 + servlet-api 3.0.1 + ehcache 2.10.1
-     dev env : MyEclipse 10.5 + Maven 3.0.4
+     **dev framework :** Spring 3.1.1RELEASE +  jersey 2.2 + servlet-api 3.0.1 + ehcache 2.10.1
+     **dev env :** MyEclipse 10.5 + Maven 3.0.4
 
 ## 3. Postman运行
      步骤1:  
