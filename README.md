@@ -28,8 +28,7 @@ var settings = {
     "username": "ndh",
     "password": "ndh"
   }
-}
-
+};
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
@@ -50,8 +49,7 @@ var settings = {
     "cache-control": "no-cache",
     "postman-token": "34a09f95-4c3c-ba39-c21d-3fc00f89128d"
   }
-}
-
+};
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
