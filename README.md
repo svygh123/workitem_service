@@ -13,8 +13,8 @@
      方法: post  
      Body参数: username=ndh , password=ndn  
      返回值: {"username":"ndh","token":"-196186307c3c5accec7ed0fc3e8d0a2ef98fbd242"}  
-     jQuery代码:
 ```JavaScript
+// jQuery代码:
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -39,8 +39,8 @@ $.ajax(settings).done(function (response) {
      方法: get  
      Headers参数: Authorization=Basic -196186307c3c5accec7ed0fc3e8d0a2ef98fbd242  
      返回值(JSON): Bad string , 选择Text后返回值(Text): {'Jersey say':'ndh'}  
-     jQuery代码:
 ```javascript
+// jQuery代码:
 var settings = {
   "async": true,
   "crossDomain": true,
